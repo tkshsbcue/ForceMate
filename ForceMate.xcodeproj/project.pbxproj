@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4253CDC2C1195C800EE9D7D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CDB2C1195C800EE9D7D /* MainView.swift */; };
+		E4253CDE2C1195C800EE9D7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CDD2C1195C800EE9D7D /* ContentView.swift */; };
+		E4253CE02C1195CA00EE9D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4253CDF2C1195CA00EE9D7D /* Assets.xcassets */; };
+		E4253CE42C1195CA00EE9D7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4253CE32C1195CA00EE9D7D /* Preview Assets.xcassets */; };
+		E4253CEE2C1195CA00EE9D7D /* ForceMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CED2C1195CA00EE9D7D /* ForceMateTests.swift */; };
+		E4253CF82C1195CA00EE9D7D /* ForceMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CF72C1195CA00EE9D7D /* ForceMateUITests.swift */; };
+		E4253CFA2C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CF92C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4253CEA2C1195CA00EE9D7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4253CD02C1195C800EE9D7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4253CD72C1195C800EE9D7D;
+			remoteInfo = ForceMate;
+		};
+		E4253CF42C1195CA00EE9D7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4253CD02C1195C800EE9D7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4253CD72C1195C800EE9D7D;
+			remoteInfo = ForceMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4253CD82C1195C800EE9D7D /* ForceMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4253CDB2C1195C800EE9D7D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E4253CDD2C1195C800EE9D7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4253CDF2C1195CA00EE9D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4253CE12C1195CA00EE9D7D /* ForceMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceMate.entitlements; sourceTree = "<group>"; };
+		E4253CE32C1195CA00EE9D7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4253CE92C1195CA00EE9D7D /* ForceMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4253CED2C1195CA00EE9D7D /* ForceMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceMateTests.swift; sourceTree = "<group>"; };
+		E4253CF32C1195CA00EE9D7D /* ForceMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4253CF72C1195CA00EE9D7D /* ForceMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceMateUITests.swift; sourceTree = "<group>"; };
+		E4253CF92C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4253CD52C1195C800EE9D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4253CE62C1195CA00EE9D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4253CF02C1195CA00EE9D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4253CCF2C1195C800EE9D7D = {
+			isa = PBXGroup;
+			children = (
+				E4253CDA2C1195C800EE9D7D /* ForceMate */,
+				E4253CEC2C1195CA00EE9D7D /* ForceMateTests */,
+				E4253CF62C1195CA00EE9D7D /* ForceMateUITests */,
+				E4253CD92C1195C800EE9D7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4253CD92C1195C800EE9D7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4253CD82C1195C800EE9D7D /* ForceMate.app */,
+				E4253CE92C1195CA00EE9D7D /* ForceMateTests.xctest */,
+				E4253CF32C1195CA00EE9D7D /* ForceMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4253CDA2C1195C800EE9D7D /* ForceMate */ = {
+			isa = PBXGroup;
+			children = (
+				E4253D062C11963C00EE9D7D /* Views */,
+				E4253CDF2C1195CA00EE9D7D /* Assets.xcassets */,
+				E4253CE12C1195CA00EE9D7D /* ForceMate.entitlements */,
+				E4253CE22C1195CA00EE9D7D /* Preview Content */,
+			);
+			path = ForceMate;
+			sourceTree = "<group>";
+		};
+		E4253CE22C1195CA00EE9D7D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4253CE32C1195CA00EE9D7D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4253CEC2C1195CA00EE9D7D /* ForceMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4253CED2C1195CA00EE9D7D /* ForceMateTests.swift */,
+			);
+			path = ForceMateTests;
+			sourceTree = "<group>";
+		};
+		E4253CF62C1195CA00EE9D7D /* ForceMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4253CF72C1195CA00EE9D7D /* ForceMateUITests.swift */,
+				E4253CF92C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift */,
+			);
+			path = ForceMateUITests;
+			sourceTree = "<group>";
+		};
+		E4253D062C11963C00EE9D7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4253CDB2C1195C800EE9D7D /* MainView.swift */,
+				E4253CDD2C1195C800EE9D7D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4253CD72C1195C800EE9D7D /* ForceMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4253CFD2C1195CA00EE9D7D /* Build configuration list for PBXNativeTarget "ForceMate" */;
+			buildPhases = (
+				E4253CD42C1195C800EE9D7D /* Sources */,
+				E4253CD52C1195C800EE9D7D /* Frameworks */,
+				E4253CD62C1195C800EE9D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceMate;
+			productName = ForceMate;
+			productReference = E4253CD82C1195C800EE9D7D /* ForceMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4253CE82C1195CA00EE9D7D /* ForceMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4253D002C1195CA00EE9D7D /* Build configuration list for PBXNativeTarget "ForceMateTests" */;
+			buildPhases = (
+				E4253CE52C1195CA00EE9D7D /* Sources */,
+				E4253CE62C1195CA00EE9D7D /* Frameworks */,
+				E4253CE72C1195CA00EE9D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4253CEB2C1195CA00EE9D7D /* PBXTargetDependency */,
+			);
+			name = ForceMateTests;
+			productName = ForceMateTests;
+			productReference = E4253CE92C1195CA00EE9D7D /* ForceMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4253CF22C1195CA00EE9D7D /* ForceMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4253D032C1195CA00EE9D7D /* Build configuration list for PBXNativeTarget "ForceMateUITests" */;
+			buildPhases = (
+				E4253CEF2C1195CA00EE9D7D /* Sources */,
+				E4253CF02C1195CA00EE9D7D /* Frameworks */,
+				E4253CF12C1195CA00EE9D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4253CF52C1195CA00EE9D7D /* PBXTargetDependency */,
+			);
+			name = ForceMateUITests;
+			productName = ForceMateUITests;
+			productReference = E4253CF32C1195CA00EE9D7D /* ForceMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4253CD02C1195C800EE9D7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E4253CD72C1195C800EE9D7D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E4253CE82C1195CA00EE9D7D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E4253CD72C1195C800EE9D7D;
+					};
+					E4253CF22C1195CA00EE9D7D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E4253CD72C1195C800EE9D7D;
+					};
+				};
+			};
+			buildConfigurationList = E4253CD32C1195C800EE9D7D /* Build configuration list for PBXProject "ForceMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4253CCF2C1195C800EE9D7D;
+			productRefGroup = E4253CD92C1195C800EE9D7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4253CD72C1195C800EE9D7D /* ForceMate */,
+				E4253CE82C1195CA00EE9D7D /* ForceMateTests */,
+				E4253CF22C1195CA00EE9D7D /* ForceMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4253CD62C1195C800EE9D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4253CE42C1195CA00EE9D7D /* Preview Assets.xcassets in Resources */,
+				E4253CE02C1195CA00EE9D7D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4253CE72C1195CA00EE9D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4253CF12C1195CA00EE9D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4253CD42C1195C800EE9D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4253CDE2C1195C800EE9D7D /* ContentView.swift in Sources */,
+				E4253CDC2C1195C800EE9D7D /* MainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4253CE52C1195CA00EE9D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4253CEE2C1195CA00EE9D7D /* ForceMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4253CEF2C1195CA00EE9D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4253CF82C1195CA00EE9D7D /* ForceMateUITests.swift in Sources */,
+				E4253CFA2C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4253CEB2C1195CA00EE9D7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4253CD72C1195C800EE9D7D /* ForceMate */;
+			targetProxy = E4253CEA2C1195CA00EE9D7D /* PBXContainerItemProxy */;
+		};
+		E4253CF52C1195CA00EE9D7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4253CD72C1195C800EE9D7D /* ForceMate */;
+			targetProxy = E4253CF42C1195CA00EE9D7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4253CFB2C1195CA00EE9D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4253CFC2C1195CA00EE9D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E4253CFE2C1195CA00EE9D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForceMate/ForceMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ForceMate/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.ForceMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4253CFF2C1195CA00EE9D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForceMate/ForceMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ForceMate/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.ForceMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4253D012C1195CA00EE9D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.ForceMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForceMate";
+			};
+			name = Debug;
+		};
+		E4253D022C1195CA00EE9D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.ForceMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForceMate";
+			};
+			name = Release;
+		};
+		E4253D042C1195CA00EE9D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.ForceMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForceMate;
+			};
+			name = Debug;
+		};
+		E4253D052C1195CA00EE9D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.ForceMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForceMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4253CD32C1195C800EE9D7D /* Build configuration list for PBXProject "ForceMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4253CFB2C1195CA00EE9D7D /* Debug */,
+				E4253CFC2C1195CA00EE9D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4253CFD2C1195CA00EE9D7D /* Build configuration list for PBXNativeTarget "ForceMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4253CFE2C1195CA00EE9D7D /* Debug */,
+				E4253CFF2C1195CA00EE9D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4253D002C1195CA00EE9D7D /* Build configuration list for PBXNativeTarget "ForceMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4253D012C1195CA00EE9D7D /* Debug */,
+				E4253D022C1195CA00EE9D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4253D032C1195CA00EE9D7D /* Build configuration list for PBXNativeTarget "ForceMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4253D042C1195CA00EE9D7D /* Debug */,
+				E4253D052C1195CA00EE9D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4253CD02C1195C800EE9D7D /* Project object */;
+}
