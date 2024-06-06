@@ -1,7 +1,5 @@
 import SwiftUI
 
-
-
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -24,9 +22,14 @@ struct ContentView: View {
                 
                 Spacer()
             }
-            .offset(CGSize(width: 10.0, height: -350))
+            .padding(.horizontal)
+            
+            Spacer()
+            Spacer()
+            
         }
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity) 
     }
 }
 
