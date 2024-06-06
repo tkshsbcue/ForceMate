@@ -1,5 +1,7 @@
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -11,11 +13,13 @@ struct ContentView: View {
                         .frame(width: 30, height: 50)
                     Text("Force")
                         .foregroundColor(.black)
+                        .font(.custom("CopperplateGothicBold", size: 30))
+                        .fontWeight(.bold)
                     Text("Mate")
                         .foregroundColor(.myColor)
+                        .font(.custom("CopperplateGothicBold", size: 30))
+                        .fontWeight(.bold)
                 }
-                .bold()
-                .font(.system(size: 30))
                 .padding(.top)
                 
                 Spacer()
