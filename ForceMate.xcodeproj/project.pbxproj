@@ -14,6 +14,10 @@
 		E4253CEE2C1195CA00EE9D7D /* ForceMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CED2C1195CA00EE9D7D /* ForceMateTests.swift */; };
 		E4253CF82C1195CA00EE9D7D /* ForceMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CF72C1195CA00EE9D7D /* ForceMateUITests.swift */; };
 		E4253CFA2C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253CF92C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift */; };
+		E4253D0C2C119F5E00EE9D7D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4253D0B2C119F5E00EE9D7D /* Colors.swift */; };
+		E4253D0F2C11A24C00EE9D7D /* Copperplate Gothic Bold Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4253D0E2C11A19900EE9D7D /* Copperplate Gothic Bold Regular.ttf */; };
+		E4253D102C11A24D00EE9D7D /* Copperplate Gothic Bold Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4253D0E2C11A19900EE9D7D /* Copperplate Gothic Bold Regular.ttf */; };
+		E4253D112C11A24E00EE9D7D /* Copperplate Gothic Bold Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4253D0E2C11A19900EE9D7D /* Copperplate Gothic Bold Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 		E4253CF32C1195CA00EE9D7D /* ForceMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4253CF72C1195CA00EE9D7D /* ForceMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceMateUITests.swift; sourceTree = "<group>"; };
 		E4253CF92C1195CA00EE9D7D /* ForceMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4253D0B2C119F5E00EE9D7D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E4253D0E2C11A19900EE9D7D /* Copperplate Gothic Bold Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Copperplate Gothic Bold Regular.ttf"; path = "../../../Downloads/Copperplate Gothic Bold Regular/Copperplate Gothic Bold Regular.ttf"; sourceTree = "<group>"; };
+		E4253D122C11A2A000EE9D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +102,8 @@
 		E4253CDA2C1195C800EE9D7D /* ForceMate */ = {
 			isa = PBXGroup;
 			children = (
+				E4253D122C11A2A000EE9D7D /* Info.plist */,
+				E4253D0D2C11A18300EE9D7D /* Fonts */,
 				E4253CDF2C1195CA00EE9D7D /* Assets.xcassets */,
 				E4253CE12C1195CA00EE9D7D /* ForceMate.entitlements */,
 				E4253D062C11963C00EE9D7D /* Views */,
@@ -107,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				E4253CE32C1195CA00EE9D7D /* Preview Assets.xcassets */,
+				E4253D0B2C119F5E00EE9D7D /* Colors.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -135,6 +145,14 @@
 				E4253CDD2C1195C800EE9D7D /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E4253D0D2C11A18300EE9D7D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E4253D0E2C11A19900EE9D7D /* Copperplate Gothic Bold Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4253CE42C1195CA00EE9D7D /* Preview Assets.xcassets in Resources */,
+				E4253D0F2C11A24C00EE9D7D /* Copperplate Gothic Bold Regular.ttf in Resources */,
 				E4253CE02C1195CA00EE9D7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4253D102C11A24D00EE9D7D /* Copperplate Gothic Bold Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4253D112C11A24E00EE9D7D /* Copperplate Gothic Bold Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4253CDE2C1195C800EE9D7D /* ContentView.swift in Sources */,
+				E4253D0C2C119F5E00EE9D7D /* Colors.swift in Sources */,
 				E4253CDC2C1195C800EE9D7D /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +454,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForceMate/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -441,7 +464,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -470,6 +493,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForceMate/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -479,7 +503,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

@@ -1,19 +1,26 @@
-//
-//  ContentView.swift
-//  ForceMate
-//
-//  Created by Kumar Tanay on 06/06/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack {
+                HStack(spacing: 0) {
+                    Image("cf_logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30, height: 50)
+                    Text("Force")
+                        .foregroundColor(.black)
+                    Text("Mate")
+                        .foregroundColor(.myColor)
+                }
+                .bold()
+                .font(.system(size: 30))
+                .padding(.top)
+                
+                Spacer()
+            }
+            .offset(CGSize(width: 10.0, height: -350))
         }
         .padding()
     }
