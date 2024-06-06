@@ -95,9 +95,9 @@
 		E4253CDA2C1195C800EE9D7D /* ForceMate */ = {
 			isa = PBXGroup;
 			children = (
-				E4253D062C11963C00EE9D7D /* Views */,
 				E4253CDF2C1195CA00EE9D7D /* Assets.xcassets */,
 				E4253CE12C1195CA00EE9D7D /* ForceMate.entitlements */,
+				E4253D062C11963C00EE9D7D /* Views */,
 				E4253CE22C1195CA00EE9D7D /* Preview Content */,
 			);
 			path = ForceMate;
